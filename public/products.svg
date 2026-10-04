@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="100%" height="100%">
+  <defs>
+    <radialGradient id="heroWarmth" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#3d2208"/>
+      <stop offset="60%" stop-color="#1c1107"/>
+      <stop offset="100%" stop-color="#0a0703"/>
+    </radialGradient>
+    <linearGradient id="goldText" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#fef08a"/>
+      <stop offset="100%" stop-color="#eab308"/>
+    </linearGradient>
+    <linearGradient id="yellowAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#facc15"/>
+      <stop offset="100%" stop-color="#eab308"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="800" fill="url(#heroWarmth)"/>
+
+  <!-- Top Brand Title -->
+  <text x="300" y="85" font-family="system-ui, sans-serif" font-weight="900" font-size="52" fill="url(#goldText)" text-anchor="middle" letter-spacing="4">HITEK</text>
+  <text x="300" y="145" font-family="system-ui, sans-serif" font-weight="900" font-size="56" fill="url(#goldText)" text-anchor="middle" letter-spacing="3">SOLUTIONS</text>
+  
+  <text x="300" y="195" font-family="system-ui, sans-serif" font-weight="500" font-size="20" fill="#fde047" text-anchor="middle" letter-spacing="1">we're here to help.</text>
+
+  <!-- 3 Service Badges (From Image 2) -->
+  <!-- 1. Appliances Service -->
+  <g transform="translate(60, 230)">
+    <circle cx="50" cy="50" r="44" fill="#facc15" stroke="#ca8a04" stroke-width="4"/>
+    <!-- Washing machine icon -->
+    <rect x="30" y="26" width="40" height="48" rx="4" fill="#1e293b"/>
+    <circle cx="50" cy="54" r="14" fill="#facc15"/>
+    <circle cx="50" cy="54" r="9" fill="#1e293b"/>
+    <circle cx="38" cy="34" r="3" fill="#ffffff"/>
+    <circle cx="48" cy="34" r="2" fill="#ffffff"/>
+    <circle cx="54" cy="34" r="2" fill="#ffffff"/>
+    <text x="50" y="120" font-family="system-ui, sans-serif" font-weight="800" font-size="14" fill="#ffffff" text-anchor="middle">APPLIANCES</text>
+    <text x="50" y="138" font-family="system-ui, sans-serif" font-weight="800" font-size="14" fill="#ffffff" text-anchor="middle">SERVICE</text>
+  </g>
+
+  <!-- 2. Electrician -->
+  <g transform="translate(250, 230)">
+    <circle cx="50" cy="50" r="44" fill="#facc15" stroke="#ca8a04" stroke-width="4"/>
+    <!-- Bulb with lightning/gear icon -->
+    <path d="M50 26 C38 26 32 35 32 44 C32 50 36 55 40 60 L40 66 L60 66 L60 60 C64 55 68 50 68 44 C68 35 62 26 50 26 Z" fill="#1e293b"/>
+    <rect x="42" y="68" width="16" height="4" fill="#1e293b"/>
+    <path d="M50 33 L45 45 L52 45 L48 57 L57 44 L51 44 Z" fill="#facc15"/>
+    <text x="50" y="120" font-family="system-ui, sans-serif" font-weight="800" font-size="15" fill="#ffffff" text-anchor="middle">ELECTRICIAN</text>
+    <text x="50" y="138" font-family="system-ui, sans-serif" font-weight="600" font-size="12" fill="#e2e8f0" text-anchor="middle">&amp; WIRING</text>
+  </g>
+
+  <!-- 3. Plumber -->
+  <g transform="translate(440, 230)">
+    <circle cx="50" cy="50" r="44" fill="#facc15" stroke="#ca8a04" stroke-width="4"/>
+    <!-- Tap / Wrench icon -->
+    <rect x="30" y="38" width="35" height="12" fill="#1e293b" rx="2"/>
+    <rect x="53" y="38" width="12" height="24" fill="#1e293b" rx="2"/>
+    <circle cx="40" cy="30" r="7" fill="#1e293b"/>
+    <path d="M59 66 C59 66 54 74 54 78 C54 81 56 83 59 83 C62 83 64 81 64 78 C64 74 59 66 59 66 Z" fill="#0284c7"/>
+    <text x="50" y="120" font-family="system-ui, sans-serif" font-weight="800" font-size="15" fill="#ffffff" text-anchor="middle">PLUMBER</text>
+    <text x="50" y="138" font-family="system-ui, sans-serif" font-weight="600" font-size="12" fill="#e2e8f0" text-anchor="middle">&amp; PIPING</text>
+  </g>
+
+  <!-- Three Technician Cards (from bottom photo collage) -->
+  <g transform="translate(30, 400)">
+    <!-- Card 1: Washing Machine Repair -->
+    <rect x="0" y="0" width="165" height="200" fill="#1e293b" stroke="#facc15" stroke-width="4" rx="8"/>
+    <!-- Technician silhouette with tool box -->
+    <rect x="15" y="140" width="45" height="25" fill="#ea580c" rx="2"/>
+    <circle cx="82" cy="55" r="22" fill="#fde047"/>
+    <path d="M50 120 C50 85 115 85 115 120 L115 170 L50 170 Z" fill="#2563eb"/>
+    <circle cx="120" cy="115" r="30" fill="none" stroke="#94a3b8" stroke-width="6"/>
+    <text x="82" y="185" font-family="system-ui, sans-serif" font-weight="bold" font-size="11" fill="#ffffff" text-anchor="middle">Appliance Service</text>
+
+    <!-- Arrow 1 -->
+    <polygon points="172,100 185,90 185,95 200,95 200,105 185,105 185,110" fill="#facc15"/>
+
+    <!-- Card 2: Electrician testing switchboard -->
+    <rect x="187" y="0" width="165" height="200" fill="#1e293b" stroke="#facc15" stroke-width="4" rx="8"/>
+    <circle cx="270" cy="55" r="22" fill="#fde047"/>
+    <path d="M237 120 C237 85 302 85 302 120 L302 170 L237 170 Z" fill="#3b82f6"/>
+    <rect x="310" y="50" width="28" height="40" fill="#ffffff" rx="2" stroke="#94a3b8" stroke-width="2"/>
+    <circle cx="320" cy="65" r="3" fill="#ef4444"/>
+    <circle cx="328" cy="65" r="3" fill="#22c55e"/>
+    <text x="270" y="185" font-family="system-ui, sans-serif" font-weight="bold" font-size="11" fill="#ffffff" text-anchor="middle">Switchboard &amp; UPS</text>
+
+    <!-- Arrow 2 -->
+    <polygon points="360,100 373,90 373,95 388,95 388,105 373,105 373,110" fill="#facc15"/>
+
+    <!-- Card 3: Plumbing Pipe Maintenance -->
+    <rect x="375" y="0" width="165" height="200" fill="#1e293b" stroke="#facc15" stroke-width="4" rx="8"/>
+    <line x1="400" y1="20" x2="400" y2="180" stroke="#94a3b8" stroke-width="10"/>
+    <line x1="390" y1="80" x2="520" y2="80" stroke="#94a3b8" stroke-width="10"/>
+    <circle cx="458" cy="55" r="22" fill="#fde047"/>
+    <path d="M425 120 C425 85 490 85 490 120 L490 170 L425 170 Z" fill="#1d4ed8"/>
+    <text x="458" y="185" font-family="system-ui, sans-serif" font-weight="bold" font-size="11" fill="#ffffff" text-anchor="middle">Pipes &amp; Water Tank</text>
+  </g>
+
+  <!-- Yellow Bar: EXPERIENCED SERVICE ENGINEERS -->
+  <g transform="translate(60, 630)">
+    <polygon points="0,0 480,0 465,46 15,46" fill="url(#yellowAccent)"/>
+    <text x="240" y="32" font-family="system-ui, sans-serif" font-weight="900" font-size="20" fill="#000000" text-anchor="middle" letter-spacing="2">EXPERIENCED SERVICE ENGINEERS</text>
+  </g>
+
+  <!-- Call Now Button -->
+  <g transform="translate(200, 705)">
+    <rect width="200" height="52" rx="26" fill="#ffffff" filter="drop-shadow(0 4px 10px rgba(0,0,0,0.5))"/>
+    <text x="100" y="33" font-family="system-ui, sans-serif" font-weight="800" font-size="20" fill="#000000" text-anchor="middle">Call Now</text>
+  </g>
+</svg>

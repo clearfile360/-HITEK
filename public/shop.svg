@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyEvening" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b0bec5"/>
+      <stop offset="50%" stop-color="#cfd8dc"/>
+      <stop offset="100%" stop-color="#eceff1"/>
+    </linearGradient>
+    <linearGradient id="pinGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#b91c1c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="600" height="800" fill="#263238"/>
+  <rect y="0" width="600" height="420" fill="url(#skyEvening)"/>
+
+  <!-- Top Title from Video Frame -->
+  <text x="300" y="110" font-family="system-ui, sans-serif" font-weight="900" font-size="46" fill="#facc15" stroke="#000000" stroke-width="4" paint-order="stroke fill" text-anchor="middle">Hitek Solution</text>
+
+  <!-- Street Wires and Poles (characteristic of Indian street) -->
+  <line x1="0" y1="90" x2="600" y2="140" stroke="#37474f" stroke-width="2"/>
+  <line x1="0" y1="120" x2="600" y2="160" stroke="#37474f" stroke-width="2"/>
+  <line x1="0" y1="150" x2="600" y2="180" stroke="#37474f" stroke-width="3"/>
+  <line x1="0" y1="190" x2="600" y2="210" stroke="#37474f" stroke-width="2"/>
+
+  <!-- Buildings on sides -->
+  <polygon points="0,260 140,290 140,550 0,600" fill="#78909c"/>
+  <polygon points="600,240 430,280 430,550 600,620" fill="#90a4ae"/>
+  
+  <!-- Shop boards on street side -->
+  <rect x="440" y="320" width="120" height="45" fill="#facc15" stroke="#333" stroke-width="2"/>
+  <text x="500" y="350" font-family="system-ui, sans-serif" font-weight="bold" font-size="16" fill="#000" text-anchor="middle">XEROX</text>
+  
+  <rect x="440" y="375" width="130" height="50" fill="#0284c7" stroke="#333" stroke-width="2"/>
+  <text x="505" y="405" font-family="system-ui, sans-serif" font-weight="bold" font-size="14" fill="#fff" text-anchor="middle">HITEK STORE</text>
+
+  <!-- Distant street view with auto-rickshaws & cars -->
+  <polygon points="140,430 430,430 600,750 0,750" fill="#455a64"/>
+  <rect x="250" y="390" width="45" height="40" fill="#f59e0b" rx="4"/>
+  <rect x="255" y="395" width="35" height="20" fill="#1e293b"/>
+  <circle cx="260" cy="430" r="7" fill="#0f172a"/>
+  <circle cx="285" cy="430" r="7" fill="#0f172a"/>
+
+  <!-- Row of parked motorbikes on right side of Malang Road -->
+  <g transform="translate(360, 480)">
+    <rect x="0" y="40" width="80" height="30" fill="#1e293b" rx="5" transform="rotate(-15)"/>
+    <circle cx="20" cy="70" r="16" fill="#0f172a" stroke="#64748b" stroke-width="4"/>
+    <circle cx="70" cy="70" r="16" fill="#0f172a" stroke="#64748b" stroke-width="4"/>
+    
+    <rect x="50" y="60" width="80" height="30" fill="#dc2626" rx="5" transform="rotate(-15)"/>
+    <circle cx="70" cy="90" r="16" fill="#0f172a" stroke="#64748b" stroke-width="4"/>
+    <circle cx="120" cy="90" r="16" fill="#0f172a" stroke="#64748b" stroke-width="4"/>
+  </g>
+
+  <!-- Big Red Location Pin from Image 3 -->
+  <g transform="translate(230, 470)">
+    <path d="M70,0 C31.3,0 0,31.3 0,70 C0,122.5 70,200 70,200 C70,200 140,122.5 140,70 C140,31.3 108.7,0 70,0 Z" fill="url(#pinGrad)" filter="drop-shadow(0 6px 15px rgba(0,0,0,0.6))"/>
+    <circle cx="70" cy="65" r="28" fill="#ffffff"/>
+    <circle cx="70" cy="65" r="14" fill="#b91c1c"/>
+  </g>
+
+  <!-- Text overlays from Image 3 -->
+  <rect x="60" y="450" width="220" height="60" fill="rgba(15, 23, 42, 0.75)" rx="8"/>
+  <text x="170" y="475" font-family="system-ui, sans-serif" font-weight="700" font-size="16" fill="#f8fafc" text-anchor="middle">Hitek Solution</text>
+  <text x="170" y="498" font-family="system-ui, sans-serif" font-weight="800" font-size="18" fill="#facc15" text-anchor="middle">9150051486</text>
+
+  <!-- Dark fade overlay at bottom -->
+  <rect y="640" width="600" height="160" fill="rgba(10, 15, 20, 0.85)"/>
+  <text x="300" y="730" font-family="system-ui, sans-serif" font-weight="900" font-size="44" fill="#ffffff" text-anchor="middle" letter-spacing="1">Vaniyambadi</text>
+  <text x="300" y="765" font-family="system-ui, sans-serif" font-weight="600" font-size="16" fill="#cbd5e1" text-anchor="middle">Malang Road · Opposite Karur Vysya Bank</text>
+</svg>

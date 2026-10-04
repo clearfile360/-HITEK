@@ -1,0 +1,78 @@
+{
+  "brand": "Hitek Solutions",
+  "location": {
+    "address": "Malang Road, Muslimpur, Vaniyambadi, Tirupattur District, Tamil Nadu - 635751",
+    "landmark": "Opposite Karur Vysya Bank",
+    "primaryPhone": "+91 91500 51486",
+    "whatsappPhone": "+91 91500 51486",
+    "hours": "Monday - Saturday: 9:00 AM - 9:00 PM | Sunday: 10:00 AM - 6:00 PM"
+  },
+  "emergencyServices": [
+    {
+      "service": "Emergency Inverter & Battery Breakdown",
+      "phone": "+91 91500 51486",
+      "available": "24/7 Priority Blackout Support",
+      "note": "Free bypass switch guidance over phone"
+    },
+    {
+      "service": "Doorstep Electrician on Demand",
+      "phone": "+91 91500 51486",
+      "available": "Daily 8 AM - 8 PM",
+      "rate": "₹199 Inspection / Visit"
+    },
+    {
+      "service": "Doorstep Plumber on Demand",
+      "phone": "+91 91500 51486",
+      "available": "Daily 8 AM - 8 PM",
+      "rate": "₹199 Inspection / Visit"
+    },
+    {
+      "service": "RO Water Purifier Leakage / Repair",
+      "phone": "+91 91500 51486",
+      "available": "Daily 9 AM - 7 PM",
+      "rate": "₹450 Filter Candle + Service"
+    }
+  ],
+  "cachedProductCatalog": [
+    {
+      "category": "Inverter + Battery Combos",
+      "model": "Starter 700VA + 100Ah Tubular",
+      "backup": "3-4 Hours (2 Fans + 2 LED + TV)",
+      "priceRange": "₹14,500 - ₹16,500",
+      "scrapDeduction": "Up to ₹1,800 off for old battery"
+    },
+    {
+      "category": "Inverter + Battery Combos",
+      "model": "Popular 900VA - 1100VA + 150Ah Tall Tubular",
+      "backup": "5-6 Hours (3 Fans + 4 LED + TV + Wi-Fi)",
+      "priceRange": "₹19,000 - ₹22,500",
+      "scrapDeduction": "Up to ₹2,500 off for old battery"
+    },
+    {
+      "category": "Inverter + Battery Combos",
+      "model": "Heavy-Duty 1150VA + 200Ah Jumbo",
+      "backup": "7-8 Hours (Runs Inverter Refrigerator)",
+      "priceRange": "₹24,500 - ₹28,000",
+      "scrapDeduction": "Up to ₹3,200 off for old battery"
+    },
+    {
+      "category": "RO Water Purifiers",
+      "model": "10L Multi-Stage RO + UV + TDS Controller",
+      "purification": "15 Liters/Hour, Mineral retention",
+      "priceRange": "₹8,500 - ₹11,500",
+      "maintenance": "Filter change every 4-6 months (₹150-₹450)"
+    },
+    {
+      "category": "Consumables & Spares",
+      "model": "5-Micron Polypropylene Spun Candle",
+      "purpose": "External sediment pre-filter",
+      "priceRange": "₹150 (Doorstep fitting: ₹199)"
+    },
+    {
+      "category": "Consumables & Spares",
+      "model": "Demineralized Battery Distilled Water (5L)",
+      "purpose": "Battery electrolyte top-up",
+      "priceRange": "₹60 per 5-Liter can"
+    }
+  ]
+}

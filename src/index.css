@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* High-Contrast Anti-Glare Low-Light Theme Styles */
+html.dark,
+body.dark,
+.dark {
+  color-scheme: dark;
+  background-color: #071312 !important;
+  color: #f2f7f4 !important;
+}
+
+.dark .bg-white {
+  background-color: #0d1e1d !important;
+  color: #f2f7f4 !important;
+}
+
+.dark .bg-\[\#f5f7f4\],
+.dark .bg-\[\#f0f4ee\],
+.dark .bg-\[\#f9fbf8\],
+.dark .bg-\[\#fcfdfa\],
+.dark .bg-\[\#fafafa\] {
+  background-color: #0a1918 !important;
+}
+
+.dark .bg-\[\#102b2a\] {
+  background-color: #050e0e !important;
+  border-color: #1f3b38 !important;
+}
+
+.dark .text-\[\#102b2a\] {
+  color: #f2f7f4 !important;
+}
+
+.dark .text-\[\#526460\],
+.dark .text-\[\#37474f\],
+.dark .text-\[\#61726d\],
+.dark .text-\[\#8fa8a3\],
+.dark .text-\[\#97aaa1\] {
+  color: #b7cbc6 !important;
+}
+
+.dark .border-\[\#d9e1da\],
+.dark .border-\[\#dce4de\],
+.dark .border-\[\#e2e8e0\],
+.dark .border-\[\#bac9c0\],
+.dark .border-\[\#f0f4f0\] {
+  border-color: #1e3a37 !important;
+}
+
+.dark input,
+.dark select,
+.dark textarea {
+  background-color: #0a1918 !important;
+  color: #f2f7f4 !important;
+  border-color: #274945 !important;
+}
+
+.dark input::placeholder,
+.dark textarea::placeholder {
+  color: #6a827d !important;
+}
